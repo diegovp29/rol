@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #4387CF;
+    color: white;
+}
+.body{
+    padding-left: 5%;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.nav{
+    background-color: #E38BE3;
+    font-size: 25px;
+    width: 100%;
+}
+.navbutton{
+    text-align: center;
+    padding: 20px 15px;
+    height: 100%;
+    outline: none;
+    transition: 0.25s;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #E38BE3;
+    border: none;
+    display: inline-block;
+}
+#nfbutton{
+    margin-left: -7px;
+}
+.navbutton:hover{
+    background-color: #4387CF;
+    padding: 20px 30px;
+}
